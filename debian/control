@@ -1,0 +1,31 @@
+Source: ruby-mustermann19
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Lucas Severo <lucassalves65@gmail.com>
+Build-Depends: debhelper (>= 9~),
+               gem2deb,
+               rake,
+               ruby-rspec,
+               ruby-rspec-its,
+               ruby-sinatra (>= 1.4),
+               ruby-rack-test
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-mustermann19.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-mustermann19.git
+Homepage: https://github.com/namusyaka/mustermann
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-mustermann19
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: module that allows one to use patterns like regular expressions
+ Mustermann19 is a library implementing patterns that behave like regular
+ expressions for use in Ruby 1.9. Given a string pattern, Mustermann will turn
+ it into an object that behaves like a regular expression and has comparable
+ performance characteristics. Mustermann keeps its runtime dependencies to a
+ minimum and is fully covered with specs and documentation.

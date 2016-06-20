@@ -1,0 +1,5 @@
+ruby-mustermann19 (0.4.3+git20160621-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: #827776)
+
+ -- Lucas Severo <lucassalves65@gmail.com>  Mon, 20 Jun 2016 06:34:23 +0200
