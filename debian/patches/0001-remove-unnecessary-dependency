@@ -1,3 +1,8 @@
+Description: Remove unnecessary dependency for ruby >= 2.0
+Author: Lucas Severo <lucassalves65@gmail.com>
+Forwarded: not-needed
+Last-Update: 2016-06-21
+
 Index: mustermann19/mustermann.gemspec
 ===================================================================
 --- mustermann19.orig/mustermann.gemspec	2016-06-21 19:03:23.465728196 +0200
